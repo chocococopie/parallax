@@ -10,3 +10,4 @@
 # country-explorer
 # states-react
 # states-react
+# parallax
