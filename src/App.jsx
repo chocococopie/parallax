@@ -6,12 +6,20 @@ function App() {
 
   return (
     <div>
-      <section><Parallax /></section>
-      <section>Hello world!</section>
-      <section><Parallax /></section>
+      <section>
+        <Parallax />
+      </section>
+      <section
+        style={{ background: "linear-gradient(180deg, #0c0c1d, #111132)" }}
+      >
+        Hello world!
+      </section>
+      <section>
+        <Parallax />
+      </section>
       <section>Hello world!</section>
     </div>
-  )
+  );
 }
 
 export default App
